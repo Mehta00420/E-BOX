@@ -1,0 +1,24 @@
+//Design an HTML page that will show the variation between each paragraph using the div element as shown in the screenshot.
+
+Hints :  Tag <div> : 
+The HTML <div> tag is used for defining a section of your document. With the div tag, you can group large sections of HTML elements together and format them with CSS. By default, browsers always place a line break before and after the <div> element. However, this can be changed with CSS. 
+Syntax : 
+<div> XXX </div> //
+
+
+<!DOCTYPE html<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Basics-Div tag</title>
+
+</head>
+<body>
+<div id="firstDiv"><h4>We help you make more of your events</h4>
+<p>Eventsforce helps you manage events more effectively by simplifying your everyday tasks and processes. It can deliver all the functionality you require for any type of event regardless of size or complexity. More importantly, Eventsforce solutions can help you save time, cut costs and make better use of your event data.</p></div>
+<div id="secondDiv"><h4>We care about your events</h4>
+<p>At Eventsforce, we care that you succeed. We believe that technology alone is not enough to deliver sustainable results for your events and we are committed to offered more. From event planning and account management to support services and software development the collective experience of our staff helps us bring a collaborative approach to customers, which is reflected across everything we do.</p></div>
+<div id="thirdDiv"><h4> We understand our customers</h4>
+<p>Eventsforce is the preferred technology partner for events professionals working in a broad range of industries from associations to corporations, universities to government and PCOs to agencies. We have considerable experience and history of supporting organisations across all these industries and take pride in understanding what matters most to the events professionals working for them.</p></div>
+</body>    
+</html>
+
